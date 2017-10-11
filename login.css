@@ -1,0 +1,45 @@
+div.login_box {
+  display:table;
+  text-align:center;
+  vertical-align:middle;
+  margin:0 auto;
+}
+
+button.login_button {
+  width:110px;
+  font-size:16px;
+  font-weight:bold;
+  color: white;
+  background-color:#00CC00;
+  display:inline-block;
+  text-align:center;
+  padding:4px 0 4px;
+  margin: 0px 20px;
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}
+
+button.prof_add_button {
+  width:140px;
+  font-size:16px;
+  font-weight:bold;
+  color: white;
+  background-color:#6699FF;
+  display:inline-block;
+  text-align:center;
+  padding:4px 0 4px;
+  margin: 0px 20px;
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}
+
+input.text {
+  display:table-cell;
+  width: 100%;
+  font-size:16px;
+  text-align:center;
+}

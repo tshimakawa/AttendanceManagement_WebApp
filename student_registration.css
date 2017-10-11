@@ -1,0 +1,61 @@
+#upload_box {
+  display:table;
+  /*width:100%;
+  height: auto;*/
+  text-align:center;
+  vertical-align: middle;
+  margin:0 auto;
+  border-collapse:separate;
+  border-spacing:5px 0;
+}
+div.upload_cell{
+  display: table-cell
+  text-align:center;
+  /*vertical-align:middle;
+  margin:0 auto;*/
+}
+div.test{
+  display: inline-block;
+  vertical-align:middle;
+}
+
+#file_input{
+   display: none;
+}
+#text{
+  text-align: center;
+  width: 350px;
+  font-size: 20px;
+}
+#file_select{
+  width: 130px;
+  color: white;
+  background-color: red;
+  font-size: 15px;
+
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}
+#upload{
+  width: 130px;
+  color: white;
+  background-color: red;
+  font-size: 15px;
+
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}
+#back_button{
+  width: 100px;
+  color: white;
+  background-color: blue;
+  font-size: 15px;
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}

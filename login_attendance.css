@@ -1,0 +1,87 @@
+div.itembox {
+text-align:center;
+}
+
+div.buttonbox{
+  display: table;
+  text-align:center;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+
+select {
+  font-size: 20px;
+  border: medium #000000 double;
+  text-align:center
+}
+
+form {
+  display: inline;
+  border: none;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+
+button.change_button {
+  width:200px;
+  font-size:16px;
+  font-weight:bold;
+  color: white;
+  background-color: #FF9900;
+  display:inline-block;
+  text-align:center;
+  padding:4px 0 4px;
+  margin: 0px 20px;
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}
+
+button.lecture_add {
+  width:160px;
+  font-size:16px;
+  font-weight:bold;
+  color: white;
+  background-color: #6699FF;
+  display:inline-block;
+  text-align:center;
+  padding:4px 0 4px;
+  margin: 0px 20px;
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}
+
+button.logout{
+  width:120px;
+  font-size:16px;
+  font-weight:bold;
+  color: white;
+  background-color: red;
+  display:inline-block;
+  text-align:center;
+  padding:4px 0 4px;
+  margin: 0px 20px;
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}
+
+button.button {
+  width:90px;
+  font-size:20px;
+  font-weight:bold;
+  color: white;
+  background-color: #00CC00;
+  text-align:center;
+  padding:4px 0 4px;
+  margin: 0px 20px;
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}

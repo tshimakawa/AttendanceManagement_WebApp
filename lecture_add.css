@@ -1,0 +1,65 @@
+button.button {
+  width:90px;
+  font-size:16px;
+  font-weight:bold;
+  color: white;
+  background-color: #00CC00;
+  display:inline-block;
+  text-align:center;
+  padding:4px 0 4px;
+  margin: 0px 20px;
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}
+button.back_button {
+  width:100px;
+  font-size:15px;
+  font-weight:bold;
+  color: white;
+  background-color: blue;
+  display:inline-block;
+  text-align:center;
+  padding:4px 0 4px;
+  margin: 0px 20px;
+  /*ボタンの角を丸める*/
+  -moz-border-radius: 50px;    /* Firefox */
+  -webkit-border-radius: 50px; /* Safari,Chrome */
+  border-radius: 50px;         /* CSS3 */
+}
+
+input.text {
+  display:table-cell;
+  width: 300px;
+  font-size:18px;
+  text-align:center;
+  border: medium #000000 solid;
+}
+
+input.time_text {
+  display:table-cell;
+  font-size:16px;
+  text-align:center;
+  border: medium #000000 solid;
+}
+
+select {
+  font-size: 20px;
+  border: medium #000000 double;
+  text-align:center
+}
+
+div.lecture_box {
+  display:table;
+  text-align:center;
+  vertical-align:middle;
+  margin:0 auto;
+}
+
+table.lecture_info{
+}
+
+td.table_cell{
+  padding-top:15px;
+}
