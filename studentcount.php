@@ -23,7 +23,7 @@ $attend_student = 0;
 
   echo '出席者数:"'.$attend_student.'"人';
 
-	$attendance = mysql_query('SELECT student.student_id, name , attendance FROM (SELECT student_id,name FROM lecture_student where lecture_id = lecture_id = 134) AS student LEFT JOIN (SELECT * FROM attendance_data where date = "2018-04-27" AND lecture_id = 134) AS attendance_data ON student.student_id = attendance_data.student_id');
+	$attendance = mysql_query('SELECT student.student_id, name , attendance FROM (SELECT student_id,name FROM lecture_student where lecture_id = 134) AS student LEFT JOIN (SELECT * FROM attendance_data where date = "2018-04-27" AND lecture_id = 134) AS attendance_data ON student.student_id = attendance_data.student_id');
 	echo '<table class="noattend_table">';
 	echo '<caption>未出席</caption>';
 			echo '<tr>';
