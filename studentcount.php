@@ -14,7 +14,7 @@ mysql_query('SET NAMES UTF8');
 
 $attend_student = 0;
 
-	$attended = mysql_query('SELECT attendance_data.student_id, name, attendance, time FROM attendance_data INNER JOIN (SELECT student_id,name FROM lecture_student where lecture_id = 134) AS student ON attendance_data.student_id = student.student_id WHERE attendance_data.date = "2018-05-18" AND lecture_id = 134 ORDER BY attendance_data.time ASC');
+	$attended = mysql_query('SELECT attendance_data.student_id, name, attendance, time FROM attendance_data INNER JOIN (SELECT student_id,name FROM lecture_student where lecture_id = 134) AS student ON attendance_data.student_id = student.student_id WHERE attendance_data.date = "2018-06-01" AND lecture_id = 134 ORDER BY attendance_data.time ASC');
 	while($data = mysql_fetch_assoc($attended)){
 		if($data['attendance'] == 1){
 			$attend_student = $attend_student + 1;
@@ -23,7 +23,7 @@ $attend_student = 0;
 
   echo '出席者数:"'.$attend_student.'"人';
 
-	$attendance = mysql_query('SELECT student.student_id, name , attendance FROM (SELECT student_id,name FROM lecture_student where lecture_id = 134) AS student LEFT JOIN (SELECT * FROM attendance_data where date = "2018-05-18" AND lecture_id = 134) AS attendance_data ON student.student_id = attendance_data.student_id');
+	$attendance = mysql_query('SELECT student.student_id, name , attendance FROM (SELECT student_id,name FROM lecture_student where lecture_id = 134) AS student LEFT JOIN (SELECT * FROM attendance_data where date = "2018-06-01" AND lecture_id = 134) AS attendance_data ON student.student_id = attendance_data.student_id');
 	echo '<table class="noattend_table">';
 	echo '<caption>未出席</caption>';
 			echo '<tr>';
